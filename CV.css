@@ -1,0 +1,83 @@
+@import url('https://fonts.cdnfonts.com/css/quiet-sans');
+
+body {
+
+    background-color: #f0d9eb;
+    color: rgb(0, 0, 0);
+
+}
+
+* {
+
+    font-family: 'Quiet Sans', sans-serif;  
+    box-sizing: border-box;                           
+  
+}
+
+.headerThing {
+
+    display: flex;
+    flex-direction: row;
+    background-color: #f0d9eb;
+    background: rgba(0, 0, 1, 0.071);
+    padding: 25px;
+
+}
+
+.headerThingText {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+
+li:hover, h1:hover, h2:hover {
+
+    background-color: rgb(240, 218, 240);
+
+}
+
+.unit1, .unit2, .unit3, .unit4, .unit5,  h2, li {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+ol, ul {
+
+    margin: 25px;
+    padding: 5px;
+    list-style: none;
+    display: grid;
+    gap: 1rem;
+
+}
+
+.leftColumnDiv {
+    flex: 30%;
+    background-color: #f0d9eb;
+    background: rgba(0, 0, 1, 0.071);
+    padding: 20px;
+  }
+
+.rightColumnDiv {   
+    flex: 65%;
+    background-color: rgb(188, 193, 212);
+    background: rgba(0, 0, 1, 0.071);
+    padding: 20px;
+  }
+
+.columnContainer {
+
+  display: flex;
+  flex-wrap: wrap;
+
+  }
+
+img {
+
+    border-radius: 45%;
+
+}
